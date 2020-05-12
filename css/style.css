@@ -1,0 +1,185 @@
+ body{
+     background-color: #fff;
+     border-radius: 10px;
+     padding: 0;
+     margin: 0;
+     color: #fff!important;
+ }
+ p, h3, h4{
+     margin: 0 !important;
+     padding: 0 !important;
+ }
+ .cmt{
+     margin-top: 15px;
+     margin-bottom: 15px;
+ }
+ #bodyWrapper{
+    background-color: #E8EAEE;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 600px;
+    position: relative;
+ }
+ #containerBody{
+     background-color: #2B2A2F;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     border-radius: 10px;
+     position: absolute;
+     top: 10%;
+     bottom: 10%;
+     left: 5%;
+     right: 5%;
+
+ }
+ #containerBody .intro p{
+    font-weight: bold;
+    font-family: 'Galada', cursive;
+}
+#containerBody .intro strong{
+     color: #FE7D14;
+     font-weight: bold;
+    font-family: 'Galada', cursive;
+
+}
+#containerBody .intro span{
+    color: #FE7D14;
+    font-weight: bold;
+    font-family: 'Galada', cursive;
+
+}
+#containerBody .intro h4{
+    font-weight: bold;
+    color: #666669;
+    font-family: 'Galada', cursive;
+}
+#containerBody .authorimg{
+    box-sizing: border-box;
+    border: 1px solid #FE7D14;
+}
+#containerBody .authorimg img{
+    width: 100%;
+}
+.social-site {
+	padding: 27px;
+}
+.social-site p {
+font-family: 'Galada', cursive;
+
+}
+.social-site a:hover{
+    text-decoration: none;
+
+}
+.social-site .fa{
+    color: #FE7D14;
+    border: 1px solid #FE7D14;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
+}
+.tech p{
+   font-weight: bold;
+   font-family: 'Galada', cursive;
+
+}
+.tech ul{
+    list-style: none;
+}
+.tech ul li{
+    color: #666669;
+    font-weight: 600;
+   font-family: 'Galada', cursive;
+}
+
+
+ #navSection .navbar{
+    border-bottom:1px solid #FE7D14;
+}
+ #navSection .navbar-expand-lg .navbar-nav .nav-link{
+     color: #666669;
+     text-align: center;
+     font-family: 'Galada', cursive;
+ }
+ #navSection .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #FE7D14;
+}
+ #navSection .navbar-brand{
+     color: #FE7D14;
+     font-family: 'Galada', cursive;
+ }
+ #navSection .fa{
+   color: #FE7D14;
+ }
+ #navSection .navbar-expand-lg .navbar-nav .dropdown-menu{
+    background-color: #2B2A2F;
+
+ }
+ #navSection .dropdown-item{
+    color: #666669;
+    font-family: 'Galada', cursive;
+
+ }
+ .modal-content{
+    background-color: #2B2A2F!important;
+ }
+ .modal-header{
+     border-bottom: 1px solid #FE7D14!important;
+    font-family: 'Galada', cursive;
+
+ }
+ .modal-body{
+    border-bottom: 1px solid #FE7D14!important;
+    font-family: 'Galada', cursive;
+
+}
+.modal-footer{
+    border-top: 1px solid #FE7D14!important;
+    font-family: 'Galada', cursive;
+
+}
+
+
+
+
+@media (min-width: 320px) {
+    #containerBody{
+        top: 5%;
+        bottom: 5%;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    #bodyWrapper{
+        height: 1180px;
+    }
+  }
+@media (min-width: 576px) { 
+    
+
+ }
+
+
+@media (min-width: 768px) {
+    .cmt{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+ }
+
+
+@media (min-width: 992px) {
+    #containerBody{
+        top: 10%;
+        bottom: 10%;
+    }
+    #bodyWrapper{
+        height: 500px;
+    }
+  }
+
+@media (min-width: 1200px) { 
+    
+ }
